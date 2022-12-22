@@ -81,3 +81,29 @@ elif o == 4:
         print("Четвертая четверть x > 0 и y < 0")
 else:
     print("Нет такой четверти")
+
+
+#5. Напишите программу, которая принимает на вход координаты
+# двух точек и находит расстояние между ними в 2D пространстве
+# . https://ru.onlinemschool.com/math/library/analytic_geometry/point_point_length/
+#in
+#- 3
+#- 6
+#- 2
+#- 1
+#out
+#5.099
+import math
+print("Найти разницу между 2 точка координат:")
+print("Введите координаты:")
+print("X1:")
+x1 = float(input())
+print("Y1:")
+y1 = float(input())
+
+print("X2:")
+x2 = float(input())
+print("Y2:")
+y2 = float(input())
+
+print(round(math.sqrt((x2-x1)**2 + (y2-y1)**2), 3))
